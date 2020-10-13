@@ -6,3 +6,4 @@
         <img src="{{ $item->source }}" alt="">
     @endforeach
 @endsection
+soome changes
