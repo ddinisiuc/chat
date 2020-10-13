@@ -87,7 +87,7 @@ class FrontendController extends Controller
     }
 
     public function chat(){
-        
+        asdd
         return view('chat');
     }
 }
