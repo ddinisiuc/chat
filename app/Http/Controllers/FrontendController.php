@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Http;
 class FrontendController extends Controller
 {
     public function index(){
-        added from past
         $arr = [
             ['title' => 'Dinisiuc'],
             ['title' => 'Daniil']
