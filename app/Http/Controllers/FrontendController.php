@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Http;
 
 class FrontendController extends Controller
 {
-    public function index(){
+    public function index(){sdds
         $arr = [
             ['title' => 'Dinisiuc'],
             ['title' => 'Daniil']
@@ -82,7 +82,7 @@ class FrontendController extends Controller
         $response = Http::get('https://graph.facebook.com/v8.0/2511672328905516/photos?fields=photos,source&access_token='.$user->fb_token);
 
         $data = json_decode($response->body(), true)['data'];
-        i need conflict, second seq
+
         return view('welcome', compact('data'));
     }
 }
